@@ -1,0 +1,12 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+/*Importante fazer primeiro o css para mobyle, é mais fácil para ajustar a responsividade
+*/
+.c1 {
+    padding: 1rem;
+    /*"rem" é uma unidade de medida que representa o tamanho relativo com base no tamanho da fonte do elemento raiz */
+}
+.c1 h1 {
+    margin: 0;
+}
