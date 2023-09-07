@@ -1,11 +1,27 @@
 * {
     font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f6f8fc;
 }
 /*Importante fazer primeiro o css para mobyle, é mais fácil para ajustar a responsividade
 */
 .c1 {
     padding: 1rem;
     /*"rem" é uma unidade de medida que representa o tamanho relativo com base no tamanho da fonte do elemento raiz */
+    background-color: white;
+    height: 100vh;
+    width: 100vw;
+}
+@media screen and (min-width: 992px) {
+    .c1 {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+
+    }
 }
 .c1 h1 {
     margin: 0;
