@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de notícias galacticas</title>
+    <link rel="stylesheet" href="styles/card.css">
+</head>
+<body>
+    <header>
+        <h1>blog: Fofoquinhas edificantes</h1>
+    </header>
+    <div class="container">
+        <card-news 
+       autor=" Beatriz"
+       titulo="Darth Vader contrata"
+       conteudo="Darth Vader procura desenvolvedores que sabem trabalhar com componentes"
+       photo = "vader.png"
+    ></card-news>
+
+        <card-news 
+       autor=" Lucia"
+       titulo="Minions desempregados"
+       conteudo="Gru, o malvado favorito, despiroca de vez e demite todos os seus mini funcionários"
+       photo = ""
+    ></card-news>
+    </div>
+    <titulo-dinamico titulo="Notícia urgente"></titulo-dinamico>
+    <titulo-dinamico titulo="Notícia teste"></titulo-dinamico>
+    <script src="componentes/CardNews.js" defer></script>
+    <script src="componentes/TituloDinam.js" defer></script>  
+</body>
+</html>

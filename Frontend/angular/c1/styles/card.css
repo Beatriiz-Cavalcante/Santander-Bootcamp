@@ -1,0 +1,15 @@
+* {
+    margin: 15;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'segoe UI', sans-serif;
+}
+header {
+    background-color: rgb(146, 45, 45);
+    text-align: center;
+    color: rgb(238, 224, 224);
+}
+body {
+    background-color: rgb(212, 124, 124);
+    margin-bottom: 10px;
+}
