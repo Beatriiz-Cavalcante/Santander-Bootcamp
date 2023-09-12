@@ -1,5 +1,5 @@
 * {
-    margin: 15;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'segoe UI', sans-serif;
@@ -11,4 +11,7 @@ header {
 }
 body {
     background-color: rgb(212, 124, 124);
+}
+.container {
+    padding-top: 20px;
 }
